@@ -34,7 +34,7 @@ It provides a lightweight, intuitive side-by-side interface for pasting your cod
 
 * HTML5
 * CSS3
-* Vanilla JavaScript (ES6+)
+* JavaScript
 
 ### **Backend**
 
