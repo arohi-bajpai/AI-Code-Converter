@@ -8,78 +8,78 @@ body {
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-        }
+}
 
-        /* The main container for the converter */
-        .converter-container {
+
+.converter-container {
             width: 100%;
             max-width: 900px;
             background-color: #ffffff;
             border-radius: 12px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
             overflow: hidden;
-        }
+}
 
-        /* Header styling */
-        .header {
+
+.header {
             padding: 20px 25px;
             background-color: #fbfbfc;
             border-bottom: 1px solid #e0e0e0;
             text-align: center;
-        }
+}
 
-        .header h1 {
+.header h1 {
             margin: 0;
             color: #222;
-        }
+}
 
-        /* Main content area with controls and textareas */
-        .content {
+
+.content {
             padding: 25px;
-        }
+}
 
-        /* Styling for the language selection dropdowns */
-        .controls {
+
+.controls {
             display: flex;
-            flex-wrap: wrap; /* Allows controls to stack on small screens */
+            flex-wrap: wrap; 
             gap: 15px;
             margin-bottom: 20px;
-        }
+}
 
-        .control-group {
+.control-group {
             flex: 1;
             min-width: 150px;
-        }
+}
 
-        .control-group label {
+.control-group label {
             display: block;
             font-weight: 600;
             margin-bottom: 8px;
             font-size: 0.9rem;
-        }
+}
 
-        .control-group select {
+.control-group select {
             width: 100%;
             padding: 10px;
             border-radius: 8px;
             border: 1px solid #ccc;
             background-color: #fff;
             font-size: 1rem;
-        }
+}
 
-        /* Styling for the input and output code areas */
-        .code-areas {
+
+.code-areas {
             display: flex;
             gap: 20px;
-        }
+}
 
-        .code-wrapper {
+.code-wrapper {
             flex: 1;
             display: flex;
             flex-direction: column;
-        }
+}
 
-        .code-wrapper textarea {
+.code-wrapper textarea {
             width: 100%;
             min-height: 300px;
             border: 1px solid #ccc;
@@ -88,16 +88,16 @@ body {
             font-family: "Courier New", Courier, monospace;
             font-size: 0.9rem;
             resize: vertical;
-            box-sizing: border-box; /* Ensures padding doesn't break layout */
-        }
+            box-sizing: border-box;
+}
 
-        /* Styling for the "Convert" button */
-        .button-container {
+
+.button-container {
             text-align: center;
             padding: 0 25px 25px;
-        }
+}
 
-        #convert-btn {
+#convert-btn {
             width: 100%;
             padding: 15px;
             font-size: 1.1rem;
@@ -108,23 +108,23 @@ body {
             border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s ease;
-        }
+}
 
-        #convert-btn:hover {
+#convert-btn:hover {
             background-color: #0056b3;
-        }
+}
 
-        #convert-btn:disabled {
+#convert-btn:disabled {
             background-color: #ccc;
             cursor: not-allowed;
-        }
+}
 
-        /* Responsive design for smaller screens */
-        @media (max-width: 700px) {
+
+@media (max-width: 700px) {
             .code-areas {
                 flex-direction: column;
             }
             .content, .header, .button-container {
                 padding: 15px;
             }
-        }
+}
